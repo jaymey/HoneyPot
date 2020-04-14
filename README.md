@@ -2,6 +2,8 @@
 HoneyPot Data Deployed with GCloud Platform
 
 # Deployed HoneyPots
+<img src="MHN-Admin" width="800">
+
 1. cowrie:
 
 medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
@@ -18,10 +20,14 @@ open source intrusion prevention system capable of real-time traffic analysis an
 
 capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing.
 
+5. elastichoney: DISCLAIMER Issues were encountered regarding this honeypot, so no data was able to be collected and analyzed.
+
 # Issues Encountered
 I had completed the lab portion a week prior, and since Dionaea appears to be an exceptionally popular honeypot, I had collected close to 4,000,000 samples, making the session file too large to work with and examine, as well as completely drowning out any data collected by other honeypots. 
 
 To resolve this I decided to drop my mhn database collection and remove the dionaea honeypot. By doing this, I would have a smaller more manageable dataset that would contain a variety of data from different honeypots.
+
+However, In doing this I also lost the only elastichoney data that I had collected (the 1 attack that is seen in the MHN-Admin photo), and therefore did not have any data to analyze for that honeypot.
 
 # Data Collected
 Attacks Logged:
