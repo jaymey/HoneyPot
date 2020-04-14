@@ -2,16 +2,20 @@
 HoneyPot Data Deployed with GCloud Platform
 
 # Deployed HoneyPots
-1. cowrie: 
+1. cowrie:
+
 medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
 
 2. p0f: 
+
 tool that utilizes an array of sophisticated, purely passive traffic fingerprinting mechanisms to identify the players behind any incidental TCP/IP communications (often as little as a single normal SYN) without interfering in any way.
 
 3. snort: 
+
 open source intrusion prevention system capable of real-time traffic analysis and packet logging.
 
 4. suricata: 
+
 capable of real time intrusion detection (IDS), inline intrusion prevention (IPS), network security monitoring (NSM) and offline pcap processing.
 
 # Issues Encountered
