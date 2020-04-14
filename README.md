@@ -28,10 +28,9 @@ The snort logs contain similar information to the p0f logs, but also include a s
 
 - suricata: 2904
 
-- Summary
-
 The suricata logs also contain similar information to the snort logs, but they act as a real-time intrusion detection and prevention system, so they log similar information regarding the signature field, and try to categorize the attacks. The signatures are very similar to the snort logs, but also contain some like "ET POLICY Python-urllib/ Suspicious User Agent". 
 
+# Summary
 This data points to some types of attacks being more popular than others, or that they are just low-interaction attacks. For example, it is clear that p0f attacks, where it simply fingerprints traffic to identify attackers will obviously collect more data by its passive scanning of TCP/IP communications, whereas cowrie attacks log brute force attacks and any shell interaction performed by the attacker, which is a high-interaction attack since it requires more work on part of the attacker.
 
 If we take a look at the cowrie data, we see that the logs contain authorization attempts using a login and password. These attacks repeat multiple times and most likely indicate the brute force login attacks that are perpetrated on the honeypot. Some entries also contain a data string which appear to be hex encoded attachments, most likely containing malware to execute once the login attempt was successful.
